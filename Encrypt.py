@@ -11,7 +11,7 @@ messEncr = ''
 for index in range(0, len(message)):
     char = ord(message[index])
 
-    if char <asciiMin or char> asciiMax:
+    if char < asciiMin or char > asciiMax:
         messEncr += message[index]
 
     else:
